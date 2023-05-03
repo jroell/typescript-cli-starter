@@ -11,8 +11,8 @@
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript", "cli", "starter", "template", "node"],
+  "author": "Jason Roell",
   "license": "ISC",
   "dependencies": {
     "commander": "^10.0.1",

@@ -1,10 +1,10 @@
 {
-  "name": "cli-tool-starter",
+  "name": "typescript-cli-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "jd": "./dist/index.js"
+    "fm": "./dist/index.js"
   },
   "scripts": {
     "start": "npm run build && node ./dist/index.js",

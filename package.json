@@ -1,0 +1,26 @@
+{
+  "name": "cli-tool-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "jd": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "npm run build && node ./dist/index.js",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "figlet": "^1.6.0",
+    "langchain": "^0.0.68"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  }
+}

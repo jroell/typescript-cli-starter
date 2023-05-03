@@ -14,6 +14,8 @@
   "keywords": ["typescript", "cli", "starter", "template", "node"],
   "author": "Jason Roell",
   "license": "ISC",
+  "repository": "https://github.com/jroell/typescript-cli-starter",
+  "homepage": "https://github.com/jroell/typescript-cli-starter#readme",
   "dependencies": {
     "commander": "^10.0.1",
     "figlet": "^1.6.0",

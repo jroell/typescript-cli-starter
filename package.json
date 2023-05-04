@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "fm": "./dist/index.js"
   },
@@ -11,7 +12,13 @@
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["typescript", "cli", "starter", "template", "node"],
+  "keywords": [
+    "typescript",
+    "cli",
+    "starter",
+    "template",
+    "node"
+  ],
   "author": "Jason Roell",
   "license": "ISC",
   "repository": "https://github.com/jroell/typescript-cli-starter",
